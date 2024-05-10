@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image: url('imagenes/fondopag.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% -110px;
+}
+
+.inicio {
+    padding-bottom: 10%;
+    padding-left: 2%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.452) 50%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.bloque-derecho, .bloque-izquierdo {
+    display:inline-block;
+    width: 45%;
+    position: absolute;
+}
+
+.bloque-izquierdo {
+    margin-right: 50%;
+    padding-bottom: 10%;
+}
+
+.bloque-izquierdo h1 {
+    font-size: 45px;
+    padding-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.bloque-izquierdo h2 {
+    font-size: 25px;
+    padding-left: 42%;
+    padding-top: 25%;
+    margin-bottom: 1%;
+    font-weight: 525;
+}
+
+.bloque-izquierdo a {
+    color: white;
+    font-size: 35px;
+    padding-left: 15%;
+}
+
+.redes {
+    padding-left: 21%;
+    margin-top: 0%;
+}
+
+.boton-style {
+    background-color: #2600ff; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 20px; /* Espaciado interno del botón (arriba/abajo izquierda/derecha) */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 10px; /* Radio de las esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 20px;
+}
+
+.boton {
+    padding-left: 22%;
+    padding-top: 50px;
+}
+
+.leng-programacion {
+    padding-top: 40%;
+    padding-left: 25%;
+    margin: 0%;
+}
+
+.leng-programacion a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    padding: 5%;
+}
+
+.bloque-derecho {
+    margin-left: 50%;
+    margin-bottom: 30%;
+    padding-bottom: 8.5%;
+}
+
+.foto-perfil {
+    padding-left: 25%;
+    padding-top: 15%;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.informacion {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.452) 50%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.bloque-titulo-info {
+    background: linear-gradient(to right, rgba(68, 0, 255, 0.322), rgba(255, 0, 64, 0.192));
+}
+
+.titulo-info {
+    font-size: 40px;
+    padding-left: 5%;
+    padding-top: 3%;
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.descripcion-info {
+    font-size: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: 0%;
+}
+
+.proyectos {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.452) 50%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.bloque-proyectos {
+    background: linear-gradient(to right, rgba(68, 0, 255, 0.322), rgba(255, 0, 64, 0.192));
+}
+
+.titulo-proyectos {
+    font-size: 40px;
+    padding-left: 6%;
+    padding-top: 3%;
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.expositor-proyectos img {
+    width: 400px;
+    height: 220px;
+    padding-left: 5%;
+}
+
+.expositor-proyectos {
+    margin-top: 0%;
+    white-space: nowrap;
+    overflow-x: auto; 
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
